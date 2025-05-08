@@ -2,8 +2,25 @@
     box-sizing: border-box;
 }
 .content{
-    background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/graphicstock-composition-of-fresh-juicy-sliced-fruits-and-citruses-isolated-on-white-background_rLflrtd7dnl_SB_PM.jpg);
+    background-image: url(	https://img.freepik.com/premium-photo/flat-lay-com…ackground-copy-space-banner_370312-155.jpg?w=2000
+    );
     height: 100vh;
     width: 100%;
     background-size: cover;
+}
+.bg{
+    background-image: url(https://www.alphafoodie.com/wp-content/uploads/2021/11/Apple-Juice-Square.jpeg);
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    background-size: cover;
+}
+@media screen and (max-width:750) {
+        .left{
+            width: 15px;
+        }
+        .right{
+            width: 30px;
+        }
+        
 }
